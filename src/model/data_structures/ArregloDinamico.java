@@ -7,7 +7,7 @@ package model.data_structures;
  * @author Fernando De la Rosa
  *
  */
-public class ArregloDinamico implements IArregloDinamico {
+public class ArregloDinamico<T extends Comparable<T>> implements IArregloDinamico<T>{
 		/**
 		 * Capacidad maxima del arreglo
 		 */
@@ -71,6 +71,24 @@ public class ArregloDinamico implements IArregloDinamico {
 		public String eliminar(String dato) {
 			// TODO implementar
 			// Recomendacion: Usar el criterio de comparacion natural (metodo compareTo()) definido en Strings.
+			return null;
+		}
+
+		@Override
+		public void agregar(Integer dato) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public Integer buscar(Integer dato) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		@Override
+		public String eliminar(Integer dato) {
+			// TODO Auto-generated method stub
 			return null;
 		}
 
